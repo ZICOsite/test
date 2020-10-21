@@ -7,4 +7,14 @@
 header {
     height: 100vh;
     background: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 100px;
+    color: #fff;
 }
