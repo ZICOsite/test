@@ -17,4 +17,5 @@ h1 {
     font-family: monospace;
     font-size: 100px;
     color: #fff;
+    text-shadow: 0 0 15px #000;
 }
