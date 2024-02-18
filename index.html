@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      canvas {
+        position: absolute;
+        z-index: 9999; /* ensure canvas appears on top */
+      }
+
+      img {
+        max-width: 45%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <video id="video" width="720" height="560" autoplay unmuted src="./images/IMG_1280.MOV" controls></video> -->
+    <canvas id="canvas"></canvas>
+    <!-- <img id="face" src="./images/oldMan1.png" /> -->
+    <script src="./face-api.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
